@@ -1,10 +1,13 @@
 package com.example.cadastroalunos;
-
+import static com.example.cadastroalunos.R.id.btn_abre_tela_cadastro_alunos;
+import static com.example.cadastroalunos.R.id.btn_abre_tela_lista_alunos;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.widget.Button;
+import android.view.View;
+
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -32,7 +35,12 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
-
-
+        btn_abre_tela_lista_alunos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ActivityListagemAlunos.class);
+                startActivity(intent);
+            }
+        });
     }
 }

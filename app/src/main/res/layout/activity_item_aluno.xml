@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D2DCA2"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginBottom="8dp"
+    android:elevation="2dp">
+
+
+    <TextView
+        android:id="@+id/item_ra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RA: 211691"
+        android:textColor="#0E0E0E"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="left"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginBottom="20dp"/>
+
+
+    <TextView
+        android:id="@+id/item_nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cinthia Cavalheiro"
+        android:textColor="#0E0E0E"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="left"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/item_endereco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rua: Jose da Silva, 115, Bairro: Aparecidinha, Sorocaba - SP  "
+        android:textColor="#0E0E0E"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="left"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/item_cep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CEP:18020-058"
+        android:textColor="#0E0E0E"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="left"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginBottom="20dp"/>
+</LinearLayout>
