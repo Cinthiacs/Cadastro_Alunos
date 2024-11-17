@@ -51,7 +51,7 @@ public class AlunoAdapter extends RecyclerView.Adapter<AlunoAdapter.AlunoViewHol
             tvRa = itemView.findViewById(R.id.item_ra);
             tvNome = itemView.findViewById(R.id.item_nome);
             tvEndereco = itemView.findViewById(R.id.item_endereco);
-            tvCep = itemView.findViewById(R.id.item_endereco);
+            tvCep = itemView.findViewById(R.id.item_cep);
         }
     }
 }
